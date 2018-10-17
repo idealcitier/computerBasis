@@ -9,7 +9,8 @@ void inplace_swap(int* x, int* y){
 int main(){
 	int a = 1;
 	int b = 2;
-
+	
+	printf("swap before: a = %d,b = %d\n", a, b);
 	inplace_swap(&a, &b);
 	printf("swap after: a = %d,b = %d\n", a, b);
 
